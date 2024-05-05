@@ -1,0 +1,56 @@
+.all_cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.presentation-card {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    margin: 10px 0;
+    
+    border: 3px solid var(--background_card);
+    border-radius: 12px;
+    background-color: var(--background1);
+
+    box-shadow: -10px -10px 0 var(--background_card);
+}
+
+.presentation-card.odin-project{
+    padding: 80px 100px;
+}
+
+#frontendmentor-logo {
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 230px;
+}
+
+#odin-logo {
+    height: 230px;
+    width: 210px;
+}
+
+.card_link {
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin-top: 50px;
+    padding: 10px;
+
+    border: 3px solid black;
+    border-radius: 6px;
+
+    color: #000;
+    background-color: var(--background4);
+}
+
+.card_link:hover {
+    background-color: var(--background_card);
+}
