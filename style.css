@@ -88,18 +88,10 @@ a {
 
 
 
-
-.one {
-    --color_card: red;
-}
-
-.two {
-    --color_card: green;
-}
-
 .what_is {
     margin-top: 5px;
     margin-bottom: 40px;
+    font-size: 1.4em;
 }
 
 .all_projects {
@@ -110,6 +102,8 @@ a {
 }
 
 .my_project {
+    --color_card: red;
+
     display: flex;
     align-items: center;
     
@@ -121,10 +115,25 @@ a {
     margin: 10px 0;
 }
 
+.text_project {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .project_image {
     background-color: red;
     width: 100px; /*Hacer que aunque la imagen sea rectangular, se ve una "previsualización" de una parte de la imagen en forma cuadrada*/
     height: 100px;
 
     margin: 20px;
+}
+
+.project_link {
+    margin-right: auto;
+    padding: 5px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: var(--background_header);
 }
