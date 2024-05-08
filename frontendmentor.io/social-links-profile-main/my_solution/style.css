@@ -17,18 +17,22 @@ html.dark {
     --background1: rgb(20, 20, 20);
     --background2: rgb(40, 40, 40);
     --background3: rgb(80, 80, 80);
+
+    --green: rgb(94, 255, 0);
+
     --colorfont_default: white;
     --colorfont_alter: black;
-    --green: rgb(94, 255, 0);
 }
 
 html.light {
     --background1: rgb(230, 230, 230);
     --background2: rgb(210, 200, 190);
     --background3: rgb(177, 177, 177);
+
+    --green: rgb(20, 168, 0);
+
     --colorfont_default: black;
     --colorfont_alter: white;
-    --green: rgb(20, 168, 0);
 }
 
 header {
@@ -38,15 +42,17 @@ header {
 
 .change_theme_btn {
     padding: 10px;
-    background-color: var(--background3);
     border: none;
     border-radius: 12px;
     margin-right: 15px;
     margin-top: 10px;
+
+    background-color: var(--background3);
 }
 
 body {
     font-family: var(--my_font);
+
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -68,19 +74,23 @@ body, main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--background2);
+
     padding: 40px 60px;
     border-radius: 12px;
+
+    background-color: var(--background2);
 }
 
 .my_name {
     font-size: 2em;
+
     margin-top: 18px;
     margin-bottom: 6px;
 }
 
 .my_locality {
     font-size: 1.1em;
+
     margin-bottom: 22px;
     color: var(--green);
 }
@@ -107,15 +117,17 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+    gap: 15px;
+
     border-radius: 6px;
     min-width: 120%;
-    gap: 15px;
 }
 
 .my_link{
-    background-color: var(--background3);
     padding: 12px;
     border-radius: 6px;
+
+    background-color: var(--background3);
     font-weight: bold;
 }
 

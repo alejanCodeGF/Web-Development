@@ -6,14 +6,17 @@ let OdinProject = {"odin-Calculator" : ["URL imagen", "Functional calculator mad
 "lorem ipsum noseque mas que habia aquí"], "odin-Etch-a-Sketch" : ["URL imagen", 
 "Etch a Sketch (a.k.a. pixeled canvas) made with HTML, CSS, and JS", "lorem ipsum noseque mas que habia aquí"]}
 
-let dict_projects = Frontendmentor
-
+const document_name = document.querySelector("#name");
 const div_projects = document.querySelector(".all_projects");
+
+// En el futuro cuando hayan más carpetas, hacer un switch
+let dict_projects = (document_name.className == "Frontendmentor") ?  Frontendmentor : OdinProject
+
+// Esto es porque en el Frontendmentor he puesto mi solución en una carpeta a parte, para separarlo, y en el de Odin la carpeta es la solución
+let url_change = (document_name.className == "Frontendmentor") ? "/my_solution" : "" 
 
 for (let key in dict_projects) {
     dict_projects[key]
-    // Hacer lo que tienes arriba mas el [i], para coger la info de cada cosa ([0] = imagen, [1] = titulo, y el [2] es la descripción)
-    // El link al proyecto es simplemente url = "./key/index.html" creo
     const project = document.createElement("div");
     project.className = "my_project";
 
@@ -38,7 +41,7 @@ for (let key in dict_projects) {
     const directory = document.createElement("a");
     directory.className = "project_link";
     directory.textContent = "Go to the project";
-    directory.setAttribute("href", `./${key}/index.html`);
+    directory.setAttribute("href", `./${key}${url_change}/index.html`);
     text_project.appendChild(directory);
 
     project.appendChild(text_project);
