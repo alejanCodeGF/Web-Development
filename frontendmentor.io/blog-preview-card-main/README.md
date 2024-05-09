@@ -45,5 +45,5 @@ Most proud:
 
 ## Author
 
-- Github - [alejanCodeGF](https://www.your-site.com)
+- Github - [alejanCodeGF](https://github.com/alejanCodeGF)
 - Frontend Mentor - [@alejanCodeGF](https://www.frontendmentor.io/profile/alejanCodeGF)

@@ -1,10 +1,16 @@
-let Frontendmentor = {"social-links-profile-main" : ["URL imagen", "Profile with social links", 
-"lorem ipsum noseque mas que habia aquí"], "blog-preview-card-main" : ["URL imagen", "Preview card of a blog", 
-"lorem ipsum noseque mas que habia aquí"]}
+let Frontendmentor = {"social-links-profile-main" : ["/photos/final_design1.png", "Profile with social links", 
+"Presentation card with links to all the social networks (LinkedIn, GitHub, etc.) with dark/light mode"], 
+"blog-preview-card-main" : ["/photos/final_design1.png", "Preview card of a blog", 
+"Presentation card with a link to a blog, with a category, a title and a description of the theme, with the author at the end"]}
 
-let OdinProject = {"odin-Calculator" : ["URL imagen", "Functional calculator made with HTML, CSS and JS", 
-"lorem ipsum noseque mas que habia aquí"], "odin-Etch-a-Sketch" : ["URL imagen", 
-"Etch a Sketch (a.k.a. pixeled canvas) made with HTML, CSS, and JS", "lorem ipsum noseque mas que habia aquí"]}
+let OdinProject = {"odin-Calculator" : ["/images/final_design1.png", "Functional calculator made with HTML, CSS and JS", 
+"Functional calculator made with HTML, CSS and JS, with sum, subtraction, division and multiplication, as well as dot annotation"], 
+"odin-Etch-a-Sketch" : ["/images/final_design1.png", "Etch a Sketch (a.k.a. pixeled canvas) made with HTML, CSS, and JS", 
+"Etch a Sketch made with HTML, CSS, and JS, with a multitude of colors, restart of the canvas, and pixel configuration"], 
+"odin-landing-page" : ["/images/final_design1.png", "Example of a profesional landing page", 
+"Example of a profesional landing page made with HTML and CSS styles"], "odin-Rock-Paper-Scissors" : ["/images/final_design1.png", 
+"Rock paper scissors game made with JavaScript", "Rock paper scissors game made with JavaScript and a user interface (UI) to take your move"], 
+"odin-recipes" : ["/images/final_design1.png", "Recipes page, with 3 examples"]}
 
 const document_name = document.querySelector("#name");
 const div_projects = document.querySelector(".all_projects");
@@ -22,7 +28,7 @@ for (let key in dict_projects) {
 
     const img_project = document.createElement("img");
     img_project.className = "project_image";
-    img_project.setAttribute("src", dict_projects[key][0]);
+    img_project.setAttribute("src", `./${key}${url_change}${dict_projects[key][0]}`);
     project.appendChild(img_project);
 
     const text_project = document.createElement("div");

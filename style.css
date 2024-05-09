@@ -90,7 +90,7 @@ a {
 
 .what_is {
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 1.4em;
 }
 
@@ -122,8 +122,8 @@ a {
 }
 
 .project_image {
-    background-color: red;
-    width: 100px; /*Hacer que aunque la imagen sea rectangular, se ve una "previsualización" de una parte de la imagen en forma cuadrada*/
+    object-fit: cover;
+    width: 100px;
     height: 100px;
 
     margin: 20px;
@@ -136,4 +136,8 @@ a {
     border: 1px solid black;
     border-radius: 8px;
     background-color: var(--background_header);
+}
+
+.project_link:hover {
+    background-color: #8f5;
 }

@@ -1,10 +1,11 @@
-# Rock Paper Scissors with JS in console
+# Rock Paper Scissors with JS
 
-Description:
+![alt text](images/final_design1.png)
 
-This is a simple Rock Paper Scissors game that is played in the console. The player chooses their move by typing in "rock", "paper", or "scissors", and the computer randomly generates its move. You write in the prompt, and the answer will show in the console.
-    - Rock beats Scissors, Scissors beats Paper, Paper beats Rock
+## Description:
 
-The game is played over 5 rounds, and then the game ends.
+This is a simple Rock Paper Scissors game. The player chooses their move by typing in "rock", "paper", or "scissors", and the computer randomly generates its move.
+
+The first player to win 5 times, wins the game
 
 Live Site: https://alejancodegf.github.io/odin-Rock-Paper-Scissors/
