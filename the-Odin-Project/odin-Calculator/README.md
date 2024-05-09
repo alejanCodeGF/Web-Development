@@ -18,4 +18,4 @@ A simple calculator application built with JavaScript, HTML and CSS.
 3. History of previous calculations
 4. Make it look nicer
 
-Live site: https://alejancodegf.github.io/odin-Calculator/
+Live site: https://alejancodegf.github.io/Web-Development/the-Odin-Project/odin-Calculator/

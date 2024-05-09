@@ -47,7 +47,7 @@ for (let key in dict_projects) {
     const directory = document.createElement("a");
     directory.className = "project_link";
     directory.textContent = "Go to the project";
-    directory.setAttribute("href", `./${key}${url_change}/index.html`);
+    directory.setAttribute("href", `./${key}${url_change}`);
     text_project.appendChild(directory);
 
     project.appendChild(text_project);

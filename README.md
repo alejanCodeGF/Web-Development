@@ -13,7 +13,7 @@ The projects are designed to showcase my skills in creating functional and visua
 
 You can browse through the website I've created to see the projects!
 
-Live site: https://alejancodegf.github.io/Web-Development/index.html
+Live site: https://alejancodegf.github.io/Web-Development
 
 ## Screenshots
 

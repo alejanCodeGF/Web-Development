@@ -12,4 +12,4 @@ This project is a web-based version of the Etch A Sketch game. It is created wit
 - Opacity mode with Progressive darkening effect, where each interaction adds 10% more black or color to the square. After 10 iterations you got the hole color
 - Users can clear the screen by clicking the "Clear grid" button
 
-Live site: https://alejancodegf.github.io/odin-Etch-a-Sketch/
+Live site: https://alejancodegf.github.io/Web-Development/the-Odin-Project/odin-Etch-a-Sketch/

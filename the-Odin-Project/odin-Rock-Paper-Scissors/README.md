@@ -8,4 +8,4 @@ This is a simple Rock Paper Scissors game. The player chooses their move by typi
 
 The first player to win 5 times, wins the game
 
-Live Site: https://alejancodegf.github.io/odin-Rock-Paper-Scissors/
+Live Site: https://alejancodegf.github.io/Web-Development/the-Odin-Project/odin-Rock-Paper-Scissors/
