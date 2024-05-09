@@ -1,6 +1,6 @@
 # Calculator
 
-![alt text](Images/Screenshot_2024-03-18_18-56-43.png)
+![alt text](images/final_design1.png)
 
 A simple calculator application built with JavaScript, HTML and CSS.
 
